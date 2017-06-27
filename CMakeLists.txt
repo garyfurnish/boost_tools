@@ -79,9 +79,9 @@ string(CONFIGURE
 <address-model>${B2_ADDRESS_MODEL}
 <link>${B2_LINK}
 <variant>${B2_VARIANT}
-<cxxflags>${CMAKE_CXX_FLAGS}
-<cflags>${CMAKE_C_FLAGS}
-<linkflags>${B2_LINK_FLAGS} 
+<cxxflags>\"${CMAKE_CXX_FLAGS}\"
+<cflags>\"${CMAKE_C_FLAGS}\"
+<linkflags>\"${B2_LINK_FLAGS}\"
 \;
 "
 B2_CONFIG_CONTENT)
